@@ -1,0 +1,51 @@
+# --- Build & Binary directories ---
+build/
+bin/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# --- Generated documentation ---
+docs/
+doc/
+Doxyfile
+Doxyfile.in~
+html/
+latex/
+
+# --- Logs ---
+*.log
+log.infos
+log.errors
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE / Editor files ---
+.vscode/
+.idea/
+*.suo
+*.user
+*.userossc
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+# --- Temporary files ---
+*.tmp
+*.bak
+*.swp
+*.old
+*.orig
+*~
+
+# --- Compiled objects ---
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
