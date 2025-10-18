@@ -1,0 +1,18 @@
+{
+    "api": {
+        "url": "https://api.your.url.com",
+        "token_url": "https://your.token.url",
+        "token_lifetime": 2,
+        "request_interval_seconds": 172800,
+        "parameters": ["wind_speed_10m:ms", "t_2m:C"],
+        "locations": "41.006381, 28.9758715"
+    },
+    "influxdb": {
+        "host": "localhost",
+        "port": 8086,
+        "database": "meteomatics",
+        "measurement": "data",
+        "max_connection_retries": 10,
+        "connection_retry_interval_seconds": 10
+    }
+}

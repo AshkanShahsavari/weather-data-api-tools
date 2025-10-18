@@ -1,0 +1,36 @@
+# -----------------------------------------------------------------------------
+# Doxygen configuration for Weather Data API Tools
+# -----------------------------------------------------------------------------
+
+PROJECT_NAME           = "Weather Data API Tools"
+PROJECT_BRIEF          = "C++ toolkit for weather and environmental data APIs"
+OUTPUT_DIRECTORY       = docs
+
+# -----------------------------------------------------------------------------
+# Input configuration
+# -----------------------------------------------------------------------------
+INPUT                  = src include
+FILE_PATTERNS          = *.hpp *.cpp
+RECURSIVE              = YES
+EXCLUDE_PATTERNS       = */lib/*
+
+# -----------------------------------------------------------------------------
+# HTML output
+# -----------------------------------------------------------------------------
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+GENERATE_LATEX         = NO
+
+# -----------------------------------------------------------------------------
+# Documentation options
+# -----------------------------------------------------------------------------
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = YES
+HAVE_DOT               = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+CLASS_DIAGRAMS         = YES
